@@ -12,5 +12,5 @@ ul {
 }
 li {
 	float: right;
-	position: relative;
+	object-fit: cover;
 }

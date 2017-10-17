@@ -1,16 +1,20 @@
 #carousel {
 	text-align: center;
-	width: 420px;
+	width: 400px;
 	height: 280px;
 	border: 2px solid red;
 	overflow: hidden;
 	margin: 0 auto;
 }
-ul {
-	width: 2200px;
+#carousel ul {
+	width: 2000px;
 	list-style: none;
+	padding: 0;
 }
-li {
-	float: right;
+#carousel li {
+	float: left;
 	object-fit: cover;
+	
+	width: 400px;
+	height: 100%;
 }
